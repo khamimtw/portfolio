@@ -79,6 +79,21 @@ section::before{
     font-size: 24px;
 }
 
+.contact{
+    padding-bottom: 128px ;
+}
+.contact::before{
+    content: 'Contact';
+}
+.contact_form{
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 64px 32px;
+    background-color: grey;
+}
+.form-label{
+    font-weight: 700;
+}
 .work-img img{
     width: 100%;
 }
