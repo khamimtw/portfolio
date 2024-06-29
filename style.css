@@ -35,7 +35,10 @@ section::before{
 .home .arrow img{
     width: 60px;
 }
+.home img{
+    width: 100%;
 
+}
 .about::before{
     content: 'About';
 }
@@ -120,6 +123,17 @@ section::before{
     animation: 2s UpDown infinite;
 }
 
+@media only screen and (max-width: 768px){
+    .home img{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 576px){
+    section::before{
+        left: -10px;
+        font-size: 64px;
+    }
+}
 @keyframes UpDown{
     0%{
         transform: translateY(0);
